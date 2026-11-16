@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Seu futuro, sua escolha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topo"><a class="marca" href="#inicio">✦ Seu futuro, sua escolha</a>
+        <nav><a href="#sobre">Sobre</a><a href="#teste">Teste</a><a href="#cursos">Cursos</a></nav>
+    </header>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-texto"><span class="etiqueta">ORIENTAÇÃO VOCACIONAL GRATUITA</span>
+                <h1>Seu futuro começa com uma pergunta: <em>o que combina com você?</em></h1>
+                <p>Não precisa ter todas as respostas agora. Descubra seus interesses, conheça possibilidades e dê o
+                    primeiro passo para escolher seu caminho.</p><a class="botao" href="#teste">Quero descobrir meu
+                    perfil →</a>
+                <p class="miudo">Sem cadastro • Aproximadamente 5 minutos</p>
+            </div>
+            <div class="ilustracao" aria-hidden="true"><span>💡</span>
+                <div>Seu caminho não precisa ser igual ao de ninguém.</div><span>🌱 📚 🚀</span>
+            </div>
+        </section>
+        <section class="secao" id="sobre"><span class="etiqueta">AUTOCONHECIMENTO</span>
+            <h2>Por que fazer um teste vocacional?</h2>
+            <p class="introducao">Escolher um curso pode dar um frio na barriga. Um teste vocacional não escolhe por
+                você, mas ajuda a organizar ideias e enxergar possibilidades que talvez ainda não tenha considerado.</p>
+            <div class="cards">
+                <article class="card"><span>🧭</span>
+                    <h3>Entenda seus interesses</h3>
+                    <p>Perceba quais atividades despertam sua curiosidade e vontade de aprender.</p>
+                </article>
+                <article class="card"><span>🔎</span>
+                    <h3>Explore caminhos</h3>
+                    <p>Conheça cursos de diferentes áreas, além das profissões mais famosas.</p>
+                </article>
+                <article class="card"><span>🌻</span>
+                    <h3>Escolha com calma</h3>
+                    <p>Use o resultado como ponto de partida para pesquisar, conversar e experimentar.</p>
+                </article>
+            </div>
+        </section>
+        <section class="secao fundo" id="teste"><span class="etiqueta">HORA DE SE CONHECER</span>
+            <h2>Vamos descobrir seus interesses?</h2>
+            <p class="introducao">Pense no que você realmente gosta, não no que esperam de você. Não existem respostas
+                certas ou erradas.</p>
+            <div class="quiz" id="quiz">
+                <div id="inicio-quiz">
+                    <h3>Preparado(a) para começar?</h3>
+                    <p>São 18 situações do cotidiano. Para cada uma, diga o quanto você gostaria de realizar aquela
+                        atividade.</p><button class="botao" id="comecar">Começar teste →</button>
+                </div>
+                <div id="perguntas" hidden>
+                    <div class="quiz-topo"><span id="contador"></span><span id="percentual"></span></div>
+                    <div class="barra">
+                        <div id="progresso"></div>
+                    </div>
+                    <h3 id="pergunta"></h3>
+                    <div class="opcoes" id="opcoes"></div>
+                    <div class="acoes"><button class="botao secundario" id="voltar">← Voltar</button><button
+                            class="botao" id="avancar" disabled>Próxima →</button></div>
+                </div>
+                <div id="resultado" hidden aria-live="polite"></div>
+            </div>
+        </section>
+        <section class="secao" id="cursos"><span class="etiqueta">POSSIBILIDADES</span>
+            <h2>Existem muitos caminhos para você explorar</h2>
+            <p class="introducao">Seu resultado pode apontar para mais de uma área. Conheça alguns exemplos de cursos e
+                lembre-se: interesses podem mudar com o tempo.</p>
+            <div class="cards" id="lista-cursos"></div>
+        </section>
+        <section class="secao destaque">
+            <h2>Uma escolha não define toda a sua vida.</h2>
+            <p>Você pode mudar de ideia, descobrir novos talentos e construir seu caminho aos poucos. O importante é
+                começar a se conhecer.</p><a href="#teste" class="botao">Fazer meu teste</a>
+        </section>
+    </main>
+    <footer><strong>✦ Meu Futuro, Meu Jeito</strong>
+        <p>Projeto acadêmico de extensão • Análise e Desenvolvimento de Sistemas</p>
+        <p>Ferramenta educativa de exploração de interesses. Não substitui orientação profissional individualizada.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
